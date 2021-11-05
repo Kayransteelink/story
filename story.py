@@ -24,8 +24,6 @@ def vraag1():
             time.sleep(1)
             print('opeens komt je moeder naar boven en zegt van dat ze op het nieuws heeft gezien dat de duitsers weer gaan aanvallen')
             time.sleep(3)
-            print('opeens komt je moeder naar boven en zegt van dat ze op het nieuws heeft gezien dat de duitsers weer gaan aanvallen')
-            time.sleep(3)
             print('ze heeft gezien dat we naar een park kunnen gaan om daar opgehaald te worden door het leger en naar een veilige plek worden gebracht')
             time.sleep(3)
             print('maar je kan ook zelf kiezen om een auto te pakken en dan zelf ergens heen gaan')
@@ -92,6 +90,7 @@ def vraag1():
                 print('waar ga je heen')
                 locatie = input
                 print(f'je gaat met je familie richting {locatie}')
+                time.sleep(2)
                 print('maar ondertussen moeten jullie ook nog tanken A:ga je daar ook wat eten halen B:blijf in de auto zitten')
 
 
