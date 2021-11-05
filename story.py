@@ -92,6 +92,7 @@ def vraag1():
                 print(f'je gaat met je familie richting {locatie}')
                 time.sleep(2)
                 print('maar ondertussen moeten jullie ook nog tanken A:ga je daar ook wat eten halen B:blijf in de auto zitten')
+                print('')
 
 
 vraag1()
